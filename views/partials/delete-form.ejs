@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Customers</title>
+  <style>
+    .delete {
+      height: 80vh;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+
+    h2 {
+      color: #343a40;
+    }
+
+    form {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #343a40;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #343a40;
+      margin-top: 20px;
+      width: 100%;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+  <h1 style="margin-top: 110px;">Delete Customer</h1>
+  <main class="delete">
+    <form action="/deleteCustomer" method="POST">
+      <label for="customerId">Customer IDs :</label>
+      <input type="text" id="customerId" name="customerId" placeholder="Enter customer IDs" required>
+      <button type="submit">Delete</button>
+    </form>
+    <% if (message) { %>
+      <br>
+      <br>
+      <h2>
+        <%= message %>
+      </h2>
+    <% } %>
+  </main>
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+
+</body>
+</html>

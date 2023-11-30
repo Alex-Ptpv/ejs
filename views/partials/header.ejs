@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa; /* Background color for the entire page */
+    }
+
+    .navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      background-color: #343a40; /* Dark grey color for the navbar */
+      padding: 10px;
+      height: 40px;
+      border-bottom: 1px solid #555d66; /* Slightly lighter border color */
+    }
+
+    .navbar-nav {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-evenly;
+      width: 100%;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-item {
+      margin-right: 10px;
+    }
+
+    .nav-link {
+      color: #ced4da; /* Light grey color for the regular state */
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #fff; /* White color for the hover state */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/addCustomer">Create Customer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/deleteCustomer">Delete Customer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/updateCustomer">Update Customer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/search">Search Customer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

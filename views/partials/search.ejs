@@ -1,0 +1,147 @@
+<!-- search.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 30%;
+      margin: 50px;
+    }
+
+    .info {
+      margin-bottom: 20px;
+    }
+
+    .main-form {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #495057;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+    #content {
+      margin: 20px;
+    }
+    .list-title {
+      text-align: center;
+    }
+    .customer-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 30px;
+    }
+
+    .customer-item {
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .customer-name {
+      color: #343a40;
+      font-weight: bold;
+    }
+
+    .customer-details {
+      display: inline-block;
+      margin: 6px;
+      color: #6c757d;
+    }
+    .search-params {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+  <main>
+    <div class="info">
+      <h1>Search</h1>
+    </div>
+    <form action="/search" method="POST" id="searchForm" class="main-form">
+      <label for="searchQuery">Search customer by name:</label>
+      <input type="text" name="searchQuery" placeholder="Enter customer name" required>
+      <button type="submit">Search</button>
+    </form>
+  </main>
+  <div id="content">
+    <% if (customers.length > 0) { %>
+      <h2 class="list-title">List of customers </h2>
+      <h3 class="search-params">List of users based on search parameters: <%= searchQuery %></h3>
+      <ul class="customer-list">
+        <% customers.forEach(function(customer) { %>    
+          <li class="customer-item">
+            <strong class="customer-name">Name: &nbsp; <%= customer.customer_name %></strong><br>
+            Address: &nbsp; <span class="customer-details"><%= customer.address %></span><br>
+            City: &nbsp; <span class="customer-details"><%= customer.city %></span><br>
+            Postal code: &nbsp; <span class="customer-details"><%= customer.postal_code %></span><br>
+            Country: &nbsp; <span class="customer-details"><%= customer.country %></span><br>
+            Contact name: &nbsp; <span class="customer-details"><%= customer.contact_name %></span><br>
+            ID: &nbsp; <span class="customer-details"><%= customer.customer_id %></span><br>
+          </li>
+        <% }); %>
+      </ul>
+    <% } else if (customers.length === 0) { %>
+      <h3 class="search-params">No customers found based on the search parameters: <%= searchQuery %></h3>
+    <% } %>
+    
+  </div>
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+</body>
+</html>
