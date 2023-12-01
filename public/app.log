@@ -224,3 +224,30 @@ Appending logs to an existing file
 12/01/2023, 2:19:01 AM - Connected to the database!
 12/01/2023, 2:19:43 AM - Rendering addCustomer page successful
 12/01/2023, 2:19:50 AM - Rendering home page successful
+
+Appending logs to an existing file
+12/01/2023, 2:47:42 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:51:54 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:52:10 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:52:40 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:52:42 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:52:43 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 2:54:00 AM - Connected to the database!
+12/01/2023, 3:11:07 AM - Rendering home page successful
+12/01/2023, 3:11:09 AM - Rendering addCustomer page successful
+12/01/2023, 3:11:14 AM - Rendering deleteCustomer page successful
+12/01/2023, 3:11:15 AM - Rendering updateCustomer page successful
+12/01/2023, 3:11:16 AM - Rendering search page successful
+12/01/2023, 3:11:17 AM - Rendering about page successful
