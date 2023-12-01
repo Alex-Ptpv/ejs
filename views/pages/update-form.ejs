@@ -7,16 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Update User</title>
+  <%- include('../partials/head'); %>
   <style>
-    body {
+    #update body {
       background-color: #f8f9fa;
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
-
-    main {
+  }
+    #update {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -24,56 +24,13 @@
       height: 100vh;
       margin: 50px;
     }
-
-    .info {
-      margin-bottom: 20px;
-    }
-
-    .main-form {
-      background-color: #ffffff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      padding: 20px;
-      width: 300px;
-      text-align: center;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 5px;
-      color: #495057;
-    }
-
-    input {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      box-sizing: border-box;
-      border: 1px solid #ced4da;
-      border-radius: 4px;
-    }
-
-    button {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 10px;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 100%;
-      margin-top: 20px;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
   </style>
 </head>
 <body>
   <header>
     <%- include('../partials/header'); %>
   </header>
-  <main>
+  <main id="update">
     <div class="info">
       <h1>Update Customer</h1>
     </div>

@@ -151,3 +151,76 @@
 2023-12-01T02:11:33.482Z - Search query successful
 2023-12-01T02:11:40.238Z - Rendering about page successful
 2023-12-01T02:11:45.246Z - Rendering search page successful
+2023-12-01T04:43:13.172Z - Connected to the database!
+
+Appending logs to an existing file
+2023-12-01T04:47:30.566Z - Connected to the database!
+
+Appending logs to an existing file
+2023-12-01T04:50:03.104Z - Connected to the database!
+2023-12-01T04:50:05.768Z - Rendering search page successful
+2023-12-01T04:50:07.450Z - Rendering home page successful
+
+Appending logs to an existing file
+2023-12-01T04:50:28.757Z - Connected to the database!
+
+Appending logs to an existing file
+2023-12-01T04:50:30.282Z - Connected to the database!
+
+Appending logs to an existing file
+12012023 1:23:58 AM - Connected to the database!
+
+Appending logs to an existing file
+12012023 1:25:36 AM - Connected to the database!
+
+Appending logs to an existing file
+12012023-undefined-undefined 1:27:10 - Connected to the database!
+
+Appending logs to an existing file
+12012023-undefined-undefined 1:27:16 - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 1:27:48 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 1:28:10 AM - Connected to the database!
+
+Appending logs to an existing file
+12/01/2023, 1:28:21 AM - Connected to the database!
+12/01/2023, 1:46:43 AM - Rendering home page successful
+12/01/2023, 1:46:44 AM - Rendering updateCustomer page successful
+12/01/2023, 1:47:13 AM - Rendering updateCustomer page successful
+12/01/2023, 1:49:35 AM - Rendering updateCustomer page successful
+12/01/2023, 1:52:23 AM - Rendering updateCustomer page successful
+12/01/2023, 2:00:46 AM - Rendering updateCustomer page successful
+12/01/2023, 2:11:27 AM - Rendering updateCustomer page successful
+12/01/2023, 2:11:56 AM - Rendering updateCustomer page successful
+12/01/2023, 2:12:34 AM - Rendering updateCustomer page successful
+12/01/2023, 2:12:39 AM - Rendering home page successful
+12/01/2023, 2:12:49 AM - Rendering home page successful
+12/01/2023, 2:12:51 AM - Rendering updateCustomer page successful
+12/01/2023, 2:12:54 AM - Rendering home page successful
+12/01/2023, 2:12:55 AM - Rendering home page successful
+12/01/2023, 2:13:14 AM - Rendering home page successful
+12/01/2023, 2:13:16 AM - Rendering home page successful
+12/01/2023, 2:13:33 AM - Rendering home page successful
+12/01/2023, 2:13:40 AM - Rendering updateCustomer page successful
+12/01/2023, 2:16:07 AM - Rendering updateCustomer page successful
+12/01/2023, 2:16:26 AM - Rendering updateCustomer page successful
+12/01/2023, 2:16:38 AM - Rendering home page successful
+12/01/2023, 2:16:45 AM - Rendering addCustomer page successful
+12/01/2023, 2:16:48 AM - Rendering deleteCustomer page successful
+12/01/2023, 2:16:50 AM - Rendering updateCustomer page successful
+12/01/2023, 2:16:52 AM - Rendering search page successful
+12/01/2023, 2:16:59 AM - Rendering about page successful
+12/01/2023, 2:17:02 AM - Rendering search page successful
+12/01/2023, 2:17:07 AM - Search query successful
+12/01/2023, 2:17:10 AM - Search query successful
+12/01/2023, 2:17:14 AM - Search query successful
+12/01/2023, 2:17:21 AM - Rendering updateCustomer page successful
+12/01/2023, 2:17:25 AM - Error updating customer: invalid input syntax for type integer: "qewqewqqe"
+
+Appending logs to an existing file
+12/01/2023, 2:19:01 AM - Connected to the database!
+12/01/2023, 2:19:43 AM - Rendering addCustomer page successful
+12/01/2023, 2:19:50 AM - Rendering home page successful

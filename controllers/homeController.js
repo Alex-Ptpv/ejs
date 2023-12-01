@@ -1,6 +1,5 @@
 // homeController.js
 const { getClient } = require('../db'); 
-const { appStore } = require('../public/store');
 const { log } = require('./logs');
 
 const client = getClient();
