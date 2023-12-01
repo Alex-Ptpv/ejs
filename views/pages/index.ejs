@@ -101,8 +101,8 @@
   </header> 
   <main>
     <div id="content">
-      <% if (data.currentPage === 'home') { %>
-        <h2 class="list-title">List of customers</h2>
+      <!-- pages/index.ejs -->
+      <h2 class="list-title">List of customers</h2>
         <ul class="customer-list">
           <% data.customers.forEach(function(customer) { %>    
             <li class="customer-item">
@@ -116,7 +116,6 @@
             </li>
           <% }); %>
         </ul>
-      <% } %>
     </div>
   </main>
   <footer>

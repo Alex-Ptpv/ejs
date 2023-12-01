@@ -1,0 +1,153 @@
+2023-12-01T00:26:10.575Z - Connected to the database!
+2023-12-01T00:27:11.713Z - Connected to the database!
+2023-12-01T00:33:14.013Z - Connected to the database!
+2023-12-01T00:35:14.008Z - Connected to the database!
+2023-12-01T00:37:04.953Z - Connected to the database!
+2023-12-01T00:38:22.174Z - Connected to the database!
+2023-12-01T00:42:29.857Z - Connected to the database!
+2023-12-01T00:44:45.250Z - Connected to the database!
+2023-12-01T00:44:50.645Z - Connected to the database!
+2023-12-01T00:44:51.555Z - Connected to the database!
+2023-12-01T00:45:12.016Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:46:44.399Z - Connected to the database!
+2023-12-01T00:46:50.345Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:48:02.415Z - Connected to the database!
+2023-12-01T00:51:03.848Z - Connected to the database!
+2023-12-01T00:51:07.096Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:51:10.516Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:51:24.875Z - Connected to the database!
+2023-12-01T00:51:26.084Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:51:34.079Z - Connected to the database!
+2023-12-01T00:52:32.512Z - Connected to the database!
+2023-12-01T00:52:37.857Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:52:47.538Z - Connected to the database!
+2023-12-01T00:52:53.301Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:53:20.468Z - Connected to the database!
+2023-12-01T00:53:42.923Z - Connected to the database!
+2023-12-01T00:53:51.018Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:53:58.520Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:54:08.828Z - Connected to the database!
+2023-12-01T00:54:28.536Z - Connected to the database!
+2023-12-01T00:54:29.816Z - Error executing SQL query:, TypeError: Cannot read properties of undefined (reading 'currentPage')
+2023-12-01T00:54:46.727Z - Connected to the database!
+2023-12-01T00:54:47.730Z - Rendering home page successful
+2023-12-01T00:56:11.529Z - Rendering home page successful
+2023-12-01T00:56:27.151Z - Rendering home page successful
+2023-12-01T00:58:36.061Z - Connected to the database!
+2023-12-01T00:58:50.120Z - Connected to the database!
+2023-12-01T00:59:10.721Z - Connected to the database!
+2023-12-01T00:59:56.044Z - Connected to the database!
+2023-12-01T00:59:58.977Z - Rendering home page successful
+2023-12-01T00:59:59.865Z - Rendering home page successful
+2023-12-01T01:00:03.755Z - Rendering home page successful
+2023-12-01T01:00:07.432Z - Rendering home page successful
+2023-12-01T01:00:58.859Z - Connected to the database!
+2023-12-01T01:01:02.098Z - Rendering about page successful
+2023-12-01T01:01:04.145Z - Rendering home page successful
+2023-12-01T01:08:11.597Z - Rendering about page successful
+2023-12-01T01:09:14.233Z - Connected to the database!
+2023-12-01T01:12:52.470Z - Connected to the database!
+2023-12-01T01:14:03.858Z - Connected to the database!
+2023-12-01T01:14:53.123Z - Connected to the database!
+2023-12-01T01:15:02.769Z - Connected to the database!
+2023-12-01T01:17:03.565Z - Connected to the database!
+2023-12-01T01:17:06.342Z - Rendering about page successful
+2023-12-01T01:17:42.941Z - Connected to the database!
+2023-12-01T01:17:44.525Z - Rendering addCustomer page successful
+2023-12-01T01:17:47.361Z - Rendering addCustomer page successful
+2023-12-01T01:17:50.060Z - Data inserted successfully
+2023-12-01T01:17:50.070Z - Rendering addCustomer page successful
+2023-12-01T01:20:36.697Z - Connected to the database!
+2023-12-01T01:21:03.314Z - Connected to the database!
+2023-12-01T01:21:50.327Z - Connected to the database!
+2023-12-01T01:22:24.430Z - Connected to the database!
+2023-12-01T01:22:27.412Z - Rendering addCustomer page successful
+2023-12-01T01:22:28.393Z - Rendering deleteCustomer page successful
+2023-12-01T01:22:35.592Z - Customer deleted successfully
+2023-12-01T01:24:14.787Z - Connected to the database!
+2023-12-01T01:25:33.554Z - Connected to the database!
+2023-12-01T01:26:15.929Z - Connected to the database!
+2023-12-01T01:27:12.370Z - Connected to the database!
+2023-12-01T01:27:16.972Z - Connected to the database!
+2023-12-01T01:27:20.470Z - Connected to the database!
+2023-12-01T01:27:24.736Z - Customer deleted successfully
+2023-12-01T01:27:51.957Z - Connected to the database!
+2023-12-01T01:27:53.028Z - Rendering updateCustomer page successful
+2023-12-01T01:28:01.297Z - Customer updated successfully
+2023-12-01T01:29:29.904Z - Connected to the database!
+2023-12-01T01:29:31.663Z - Customer updated successfully
+2023-12-01T01:29:36.428Z - Customer updated successfully
+2023-12-01T01:31:25.244Z - Connected to the database!
+2023-12-01T01:32:41.598Z - Connected to the database!
+2023-12-01T01:33:41.634Z - Connected to the database!
+2023-12-01T01:33:45.043Z - Connected to the database!
+2023-12-01T01:33:48.727Z - Connected to the database!
+2023-12-01T01:33:58.740Z - Connected to the database!
+2023-12-01T01:33:59.988Z - Connected to the database!
+2023-12-01T01:35:14.318Z - Connected to the database!
+2023-12-01T01:35:15.511Z - Rendering search page successful
+2023-12-01T01:35:20.694Z - Search query successful
+2023-12-01T01:35:29.011Z - Search query successful
+2023-12-01T01:35:32.275Z - Rendering about page successful
+2023-12-01T01:37:37.445Z - Connected to the database!
+2023-12-01T01:39:19.220Z - Connected to the database!
+2023-12-01T01:39:42.767Z - Rendering updateCustomer page successful
+2023-12-01T01:39:51.967Z - Error updating customer: error: invalid input syntax for type integer: "asdsad"
+2023-12-01T01:42:12.621Z - Connected to the database!
+2023-12-01T01:52:16.512Z - Connected to the database!
+2023-12-01T01:52:21.852Z - Customer updated successfully
+2023-12-01T01:52:26.610Z - Customer updated successfully
+2023-12-01T01:52:59.806Z - Customer updated successfully
+2023-12-01T01:53:21.650Z - Connected to the database!
+2023-12-01T01:53:22.912Z - Error updating customer: invalid input syntax for type integer: "23123sadad"
+2023-12-01T01:53:48.337Z - Connected to the database!
+2023-12-01T01:53:49.981Z - Rendering updateCustomer page successful
+2023-12-01T01:53:54.911Z - Error updating customer: invalid input syntax for type integer: "asdasd"
+2023-12-01T01:54:54.381Z - Connected to the database!
+2023-12-01T01:54:55.675Z - Rendering home page successful
+2023-12-01T01:54:57.259Z - Rendering updateCustomer page successful
+2023-12-01T01:55:00.245Z - Customer updated successfully
+2023-12-01T01:55:05.524Z - Customer updated successfully
+2023-12-01T01:56:48.504Z - Connected to the database!
+2023-12-01T01:57:04.272Z - Connected to the database!
+2023-12-01T01:57:27.926Z - Connected to the database!
+2023-12-01T01:57:28.777Z - Error updating customer: invalid input syntax for type integer: "asdasdasdsadasd"
+2023-12-01T01:57:30.827Z - Rendering updateCustomer page successful
+2023-12-01T01:57:33.855Z - Error updating customer: invalid input syntax for type integer: "asdasd"
+2023-12-01T01:57:45.577Z - Rendering updateCustomer page successful
+2023-12-01T01:58:03.089Z - Connected to the database!
+2023-12-01T01:58:03.721Z - Rendering updateCustomer page successful
+2023-12-01T01:58:04.498Z - Rendering updateCustomer page successful
+2023-12-01T01:58:06.772Z - Customer updated successfully
+2023-12-01T01:58:11.897Z - Connected to the database!
+2023-12-01T01:58:17.106Z - Error updating customer: invalid input syntax for type integer: "asdasdasd"
+2023-12-01T01:59:17.519Z - Error updating customer: invalid input syntax for type integer: "asdasdasd"
+2023-12-01T01:59:22.693Z - Error updating customer: invalid input syntax for type integer: "asdasdasd"
+2023-12-01T01:59:24.173Z - Rendering updateCustomer page successful
+2023-12-01T01:59:27.239Z - Error updating customer: invalid input syntax for type integer: "asdasd"
+2023-12-01T02:01:11.662Z - Rendering deleteCustomer page successful
+2023-12-01T02:03:49.852Z - Connected to the database!
+2023-12-01T02:06:34.005Z - Connected to the database!
+2023-12-01T02:06:35.919Z - Rendering deleteCustomer page successful
+2023-12-01T02:06:37.188Z - Rendering updateCustomer page successful
+2023-12-01T02:06:41.036Z - Error updating customer: invalid input syntax for type integer: "asdasdda"
+2023-12-01T02:08:07.957Z - Connected to the database!
+2023-12-01T02:08:35.402Z - Connected to the database!
+2023-12-01T02:08:38.891Z - Error updating customer: invalid input syntax for type integer: "asdasdda"
+2023-12-01T02:08:42.484Z - Rendering deleteCustomer page successful
+2023-12-01T02:08:44.681Z - Error deleting customer: invalid input syntax for type integer: "asdasd"
+2023-12-01T02:08:50.220Z - Rendering deleteCustomer page successful
+2023-12-01T02:08:51.354Z - Rendering updateCustomer page successful
+2023-12-01T02:08:57.753Z - Rendering addCustomer page successful
+2023-12-01T02:10:47.335Z - Connected to the database!
+2023-12-01T02:10:56.471Z - Connected to the database!
+2023-12-01T02:11:01.868Z - Rendering addCustomer page successful
+2023-12-01T02:11:06.166Z - Data inserted successfully
+2023-12-01T02:11:06.173Z - Rendering addCustomer page successful
+2023-12-01T02:11:22.758Z - Rendering deleteCustomer page successful
+2023-12-01T02:11:23.518Z - Rendering updateCustomer page successful
+2023-12-01T02:11:24.802Z - Rendering search page successful
+2023-12-01T02:11:29.887Z - Search query successful
+2023-12-01T02:11:33.482Z - Search query successful
+2023-12-01T02:11:40.238Z - Rendering about page successful
+2023-12-01T02:11:45.246Z - Rendering search page successful

@@ -18,6 +18,6 @@ class Store {
 
 }
 
-const appStore = new Store();
+const appStore = new Store('');
 
 module.exports = appStore;
